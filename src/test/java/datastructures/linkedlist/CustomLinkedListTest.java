@@ -1,9 +1,7 @@
-package dataStructure.linkedList;
+package datastructures.linkedlist;
 
-import dataStructure.linkedList.interfaces.LinkedList;
+import datastructures.linkedlist.interfaces.LinkedList;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CustomLinkedListTest {
 
-    LinkedList<String> linkedList;
+    private LinkedList<String> linkedList;
 
     @BeforeEach
     void init() {

@@ -1,6 +1,6 @@
-package dataStructure.linkedList;
+package datastructures.linkedlist;
 
-import dataStructure.linkedList.interfaces.LinkedList;
+import datastructures.linkedlist.interfaces.LinkedList;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import java.util.NoSuchElementException;
@@ -26,7 +26,7 @@ public class CustomLinkedList<E> implements LinkedList<E> {
     @Override
     public void add(E e) {
         Node<E> l = last;
-        Node<E> newNode = new Node<E>(e, null, l);
+        Node<E> newNode = new Node<>(e, null, l);
         last = newNode;
         if (l == null)
             first = newNode;

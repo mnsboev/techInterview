@@ -1,4 +1,4 @@
-package dataStructure.linkedList.interfaces;
+package datastructures.linkedlist.interfaces;
 
 public interface LinkedList<E> {
 
